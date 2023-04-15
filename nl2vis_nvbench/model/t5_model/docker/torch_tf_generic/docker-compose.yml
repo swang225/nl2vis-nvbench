@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  w266-ml:
+    image: w266-torch-tf-generic:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - /home/carlitos/data_science:/user
+    expose:
+      - "8888"
+    ports:
+      - "8888:8888"
