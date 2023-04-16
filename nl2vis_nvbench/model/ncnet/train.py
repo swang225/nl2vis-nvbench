@@ -3,8 +3,8 @@ import torch.nn as nn
 import os.path as osp
 import pickle
 
-from nebula.model.ncnet import ncNet
-from nebula.common import Counter
+from nl2vis_nvbench.model.ncnet import ncNet
+from nl2vis_nvbench.common import Counter
 
 import numpy as np
 import random

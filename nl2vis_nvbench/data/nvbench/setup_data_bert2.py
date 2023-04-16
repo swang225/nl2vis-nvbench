@@ -1,9 +1,9 @@
-from nebula.data.nvbench.build_vocab import read_data, Tokenizer, VocabBuilder
+from nl2vis_nvbench.data.nvbench.build_vocab import read_data, Tokenizer, VocabBuilder
 from transformers import BertTokenizer
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import os.path as osp
-from nebula import root
+from nl2vis_nvbench import root
 import torch
 
 

@@ -1,13 +1,13 @@
 import torch
 
 
-from nebula.common import Counter, is_matching
-from nebula.model.nv_bert_cnn.translate import (
+from nl2vis_nvbench.common import Counter, is_matching
+from nl2vis_nvbench.model.nv_bert_cnn.translate import (
     postprocessing,
     get_all_table_columns
 )
-from nebula.model.nv_bert_cnn import nvBertCNN
-from nebula import root
+from nl2vis_nvbench.model.nv_bert_cnn import nvBertCNN
+from nl2vis_nvbench import root
 
 import random
 import numpy as np

@@ -5,13 +5,13 @@ import re
 import os
 import os.path as osp
 
-from nebula.common import get_device
-from nebula.data.nvbench.process_dataset import ProcessData4Training
-from nebula.data.nvbench.setup_data_bert import get_bert_tokenizer, setup_data
-from nebula.model.nv_bert_cnn.component.bert_encoder import BertEncoder, EMBEDDING_SIZE
-from nebula.model.nv_bert_cnn.component.decoder import Decoder
-from nebula.model.nv_bert_cnn.component.seq2seq import Seq2Seq
-from nebula.model.nv_bert_cnn.translate import get_token_types, fix_chart_template, postprocessing
+from nl2vis_nvbench.common import get_device
+from nl2vis_nvbench.data.nvbench.process_dataset import ProcessData4Training
+from nl2vis_nvbench.data.nvbench.setup_data_bert import get_bert_tokenizer, setup_data
+from nl2vis_nvbench.model.nv_bert_cnn.component.bert_encoder import BertEncoder, EMBEDDING_SIZE
+from nl2vis_nvbench.model.nv_bert_cnn.component.decoder import Decoder
+from nl2vis_nvbench.model.nv_bert_cnn.component.seq2seq import Seq2Seq
+from nl2vis_nvbench.model.nv_bert_cnn.translate import get_token_types, fix_chart_template, postprocessing
 
 
 def get_candidate_columns(src):

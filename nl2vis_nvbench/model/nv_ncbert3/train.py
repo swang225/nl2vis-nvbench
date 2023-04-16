@@ -4,8 +4,8 @@ import os
 import os.path as osp
 import pickle
 
-from nebula.model.nv_ncbert3 import nvncBert3
-from nebula.common import Counter
+from nl2vis_nvbench.model.nv_ncbert3 import nvncBert3
+from nl2vis_nvbench.common import Counter
 
 import numpy as np
 import random

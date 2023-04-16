@@ -1,10 +1,10 @@
-from nebula.model.nv_ncbert3 import nvncBert3
+from nl2vis_nvbench.model.nv_ncbert3 import nvncBert3
 import torch
 import torch.nn as nn
 import os.path as osp
 import pickle
 
-from nebula.common import Counter, read_pickle, write_pickle
+from nl2vis_nvbench.common import Counter, read_pickle, write_pickle
 
 import numpy as np
 import random

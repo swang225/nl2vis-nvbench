@@ -1,5 +1,5 @@
-from nebula.model.nv_ncbert3 import nvncBert3
-from nebula.data.nvbench.vega import to_vega_lite
+from nl2vis_nvbench.model.nv_ncbert3 import nvncBert3
+from nl2vis_nvbench.data.nvbench.vega import to_vega_lite
 
 path1 = "C:/Users/aphri/Documents/t0002/pycharm/repo/nebula/model/ncnet_no_af2/result/model_best.pt"
 # path1 = "C:/Users/aphri/Documents/t0002/pycharm/data/ncnet/output_models/model_best.pt"

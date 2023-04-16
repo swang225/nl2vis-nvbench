@@ -1,6 +1,6 @@
-from nebula.model.nv_bert import nvBert
+from nl2vis_nvbench.model.nv_bert import nvBert
 import os.path as osp
-from nebula import root
+from nl2vis_nvbench import root
 
 temp_path1 = "C:/Users/aphri/Documents/t0002/pycharm/data/ncnet/temp_data"
 m1 = nvBert(temp_dataset_path=temp_path1)

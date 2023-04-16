@@ -5,18 +5,18 @@ import os
 import os.path as osp
 
 import torch
-from nebula.common import get_device
-from nebula.model.ncnet.translate import (
+from nl2vis_nvbench.common import get_device
+from nl2vis_nvbench.model.ncnet.translate import (
     translate_sentence_with_guidance,
     translate_sentence,
     postprocessing
 )
-from nebula.model.ncnet.component.seq2seq import Seq2Seq
-from nebula.model.ncnet.component.encoder import Encoder
-from nebula.model.ncnet.component.decoder import Decoder
-from nebula.data.nvbench.build_vocab import build_vocab
-from nebula.data.nvbench.process_dataset import ProcessData4Training
-from nebula import root
+from nl2vis_nvbench.model.ncnet.component.seq2seq import Seq2Seq
+from nl2vis_nvbench.model.ncnet.component.encoder import Encoder
+from nl2vis_nvbench.model.ncnet.component.decoder import Decoder
+from nl2vis_nvbench.data.nvbench.build_vocab import build_vocab
+from nl2vis_nvbench.data.nvbench.process_dataset import ProcessData4Training
+from nl2vis_nvbench import root
 
 
 class ncNet:

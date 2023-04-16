@@ -2,7 +2,7 @@ import re
 import json
 
 import torch
-from nebula.data.nvbench.setup_data_bert3 import get_bert_tokenizer
+from nl2vis_nvbench.data.nvbench.setup_data_bert3 import get_bert_tokenizer
 
 
 def get_candidate_columns(src):

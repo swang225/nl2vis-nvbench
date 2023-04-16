@@ -1,5 +1,5 @@
-from nebula.model.ncnet import ncNet
-from nebula.data.nvbench.vega import to_vega_lite
+from nl2vis_nvbench.model.ncnet import ncNet
+from nl2vis_nvbench.data.nvbench.vega import to_vega_lite
 
 path1 = "C:/Users/aphri/Documents/t0002/pycharm/repo/nebula/model/ncnet/saved_models/trained_model.pt"
 # path1 = "C:/Users/aphri/Documents/t0002/pycharm/data/ncnet/output_models/model_best.pt"

@@ -5,18 +5,18 @@ import os
 import os.path as osp
 
 import torch
-from nebula.common import get_device
-from nebula.model.nv_ncbert3.translate import (
+from nl2vis_nvbench.common import get_device
+from nl2vis_nvbench.model.nv_ncbert3.translate import (
     translate_sentence_with_guidance,
     translate_sentence,
     postprocessing
 )
-from nebula.model.nv_ncbert3.component.seq2seq import Seq2Seq
-from nebula.model.nv_ncbert3.component.encoder import Encoder
-from nebula.model.nv_ncbert3.component.decoder import Decoder
-from nebula.data.nvbench.setup_data_bert3 import setup_data, get_bert_tokenizer
-from nebula.data.nvbench.process_dataset import ProcessData4Training
-from nebula import root
+from nl2vis_nvbench.model.nv_ncbert3.component.seq2seq import Seq2Seq
+from nl2vis_nvbench.model.nv_ncbert3.component.encoder import Encoder
+from nl2vis_nvbench.model.nv_ncbert3.component.decoder import Decoder
+from nl2vis_nvbench.data.nvbench.setup_data_bert3 import setup_data, get_bert_tokenizer
+from nl2vis_nvbench.data.nvbench.process_dataset import ProcessData4Training
+from nl2vis_nvbench import root
 
 
 class nvncBert3:

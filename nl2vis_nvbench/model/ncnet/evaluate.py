@@ -1,10 +1,10 @@
-from nebula.model.ncnet import ncNet
+from nl2vis_nvbench.model.ncnet import ncNet
 import torch
 import torch.nn as nn
 import os.path as osp
 import pickle
 
-from nebula.common import Counter, read_pickle, write_pickle
+from nl2vis_nvbench.common import Counter, read_pickle, write_pickle
 
 import numpy as np
 import random

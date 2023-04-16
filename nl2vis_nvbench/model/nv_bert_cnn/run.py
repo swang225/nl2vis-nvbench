@@ -1,4 +1,4 @@
-from nebula.model.nv_bert_cnn import nvBertCNN
+from nl2vis_nvbench.model.nv_bert_cnn import nvBertCNN
 
 temp_path1 = "C:/Users/aphri/Documents/t0002/pycharm/data/ncnet/temp_data"
 m1 = nvBertCNN(temp_dataset_path=temp_path1)
